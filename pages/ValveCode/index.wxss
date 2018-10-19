@@ -1,0 +1,33 @@
+/**index.wxss**/
+.title{
+  margin:50rpx 50rpx 0rpx;
+}
+.intro {
+  margin: 10rpx;
+  padding: 10rpx;
+  text-align: center;
+}
+.pk{
+  /* position: absollute; */
+  top: 800rpx;
+  margin: 40rpx;
+  
+}
+
+.Description{
+  /* position: absolute; */
+  display: flex;
+  /* top: 500rpx; */
+  height: 50rpx;
+  margin:3rpx;
+  font: 2rpx;
+  background-color: #999999;
+  font-size: 16px;
+}
+.DescriptionDtl{
+  margin: 3rpx 18rpx;
+}
+.DesV{
+  margin: 15rpx;
+}
+

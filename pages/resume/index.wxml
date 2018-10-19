@@ -1,0 +1,112 @@
+<!--index.wxml-->
+<view class="container">
+  <view id='header'>
+    <image class='bjimg' mode='aspectFit' src='./img/bg.jpg'></image>
+    <image class='figure' mode='aspectFit' src='./img/Graduate_2.jpg'></image>
+    <view bindtap='tel'>
+      <image class='tel' mode='aspectFit' src='./img/tel.png'></image>
+    </view>
+  </view>
+  <view id='content'>
+    <swiper duration='80' autoplay='true' circular='true' >
+
+      <swiper-item>
+
+        <view class='sheet'>
+        <view class='contentHeader'>
+          <image class='contentHeaderImg' src='./img/1.png'></image>
+        </view>
+        <view class='textSelection'>
+          <text class='textH1'>顾启帆</text>
+          <text>男 | 29岁（1989年12月20日）</text>
+          <text>设备工程师 （BASF-YPC）</text>
+          <text>硕士 （莱特州立大学 美国.俄亥俄）</text>
+          <text>深度了解：</text>
+          <text>•	Python</text>
+          <text>•	JavaScript</text>
+          <text>•	HTML5</text>
+          <text>•	CSS3</text>
+          <text>•	Java</text>
+          <text>•	MySQL</text>
+          <text>•	JMP</text>
+          <text>•	Arima</text>
+          <text>•	Solver</text>
+          
+          <text>其他技能及爱好：</text>
+          <text>Photoshop</text>
+          <text>Flash</text>
+          <text>德语</text>
+          <text>CAD</text>
+          <text>SolidWorks</text>
+          <text>博弈策略</text>
+          <text>竹笛（业余10级）</text>
+          <text>...</text>
+
+          <!-- <text class='textH1'>{{name}}</text> -->
+          <!-- <block wx:for='{{stringArray[0]}}'> -->
+            <!-- <text class='text'>{{item}}</text> -->
+            <!-- <text class='{{item.styleClass}}'>{{item.str}}</text> -->
+          <!-- </block> -->
+         
+        <text class='contact'>联系方式： 135-1253-5178</text>
+        <text class='contact'>Email: guqifan1220@163.com</text>
+        </view>
+      </view>
+      </swiper-item>
+
+      <swiper-item>
+
+        <view class='sheet'>
+        <view class='contentHeader'>
+          <image class='contentHeaderImg' src='./img/2.png'></image>
+        </view>
+        <view class='textSelection'>
+          <!-- <block wx:for='{{stringArray[1]}}'>
+            <text class='text'>{{item}}</text>
+            <text class='{{item.styleClass}}'>{{item.str}}</text>
+          </block> -->
+          <text class='textH1'>2015年~至今</text>
+          <text>BASF-YPC CTM</text>
+          <text>•	3.5年设备技术管理、数据管理经验</text>
+          <text>•	根据历史数据进行设备RBM风险评估</text>
+          <text>•	设备预防性维护计划编制及实施</text>
+          <text>•	设备备件采购及技术评估</text>
+          <text>•	SAP系统物料号管理（DDL，DML)</text>
+          <text>•	功能位置创建，BOM维护</text>
+          <text>•	特种设备管理（A3持证）</text>
+          <text>•	审计技术支持</text>
+          <text>•	大修管理</text>
+          <image class='cerImg' mode='aspectFit' src='./img/cerFromBSF.jpg' ></image>
+          <!-- <image class='cerImg' mode='aspectFit' src='./img/cerFromBSF.jpg></image> -->
+          
+          
+          
+          <text class='contact'>联系方式： 135-1253-5178</text>
+          <text class='contact'>Email: guqifan1220@163.com</text>
+        </view>
+      </view>
+      </swiper-item>
+      
+      <swiper-item>
+        <view class='sheet'>
+        <view class='contentHeader'>
+          <image class='contentHeaderImg' src='./img/3.png'></image>
+        </view>
+        <view class='textSelection'>
+          <text class='textH1'>2012~2014</text>
+          <text>人因工程-莱特州立大学（美国 俄亥俄）</text>
+          <text>硕士学位</text>
+          <image class='cerImg' mode='aspectFit' src='./img/certificate.jpg' ></image>
+          <text class='textH1'>2008~2014</text>
+          <text>机械设计制造及其自动化-大连交通大学</text>
+          <text>学士学位</text>
+          <text class='contact'>联系方式： 135-1253-5178</text>
+          <text class='contact'>Email: guqifan1220@163.com</text>
+        </view>
+      </view>
+      </swiper-item>
+     
+    </swiper>
+    
+  </view>
+</view>

@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/Index/index",
+    "pages/ValveCode/index",
+    "pages/resume/index"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "MyTools_V1.02",
+    "navigationBarTextStyle": "black"
+  }
+}

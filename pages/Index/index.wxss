@@ -1,0 +1,27 @@
+/* pages/Index/index.wxss */
+
+.menuTitle{
+  margin: 50rpx 100rpx 200rpx;
+  display: block;
+}
+
+.mainView{
+  margin: 150rpx 10rpx 300rpx;
+  display: block;
+}
+
+.menuBtn{
+  margin: 50rpx;
+}
+
+.PS{
+  position: absolute;
+  top: 1050rpx;
+  margin: 10rpx 100rpx;
+  font-size: 0.8rem;
+}
+.copyright{
+  padding: 10rpx 20rpx 0rpx;
+  font-size: 15rpx;
+  color:rgb(28, 0, 155);
+}

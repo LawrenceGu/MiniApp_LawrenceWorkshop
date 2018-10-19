@@ -1,0 +1,14 @@
+<!--pages/Index/index.wxml-->
+<text class='menuTitle'>Main Menu</text>
+<view class='mainView'>
+  <button class='menuBtn' bindtap='toValveCode'>ValveCode Checker</button>
+</view>
+
+
+<view class='PS'>
+  <text>更多功等待开发...</text>
+  <view>
+    <text class='copyright' bindtap='toResume'>Powered By Lawrence.Gu</text>
+  </view>
+</view>
+

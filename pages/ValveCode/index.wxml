@@ -1,0 +1,55 @@
+<!--index.wxml-->
+
+<!-- <view class='title'>ValveCode Checker</view> -->
+<view class='title'>阀门代码查询</view>
+
+<view>
+  <!-- <view>{{one}}{{two}}{{three}}{{four}}{{five}}{{six}}{{seven}}</view> -->
+  <picker-view class= 'pk' indicator-style="height: 20px;" style="width: 100%; height: 100px;" value="{{value}}" bindchange="bindChange">
+
+    <picker-view-column>
+      <view wx:for="{{one}}" style="line-height: 20px" wx:key="*this">{{item}}</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{two}}" style="line-height: 20px" wx:key="*this">{{item}}</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{three}}" style="line-height: 20px" wx:key="*this">{{item}}</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{four}}" style="line-height: 20px" wx:key="*this">{{item}}</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{five}}" style="line-height: 20px" wx:key="*this">{{item}}</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{six}}" style="line-height: 20px" wx:key="*this">{{item}}</view>
+    </picker-view-column>
+
+    <picker-view-column>
+      <view wx:for="{{seven}}" style="line-height: 20px" wx:key="*this">{{item}}</view>
+    </picker-view-column>
+  </picker-view>
+</view>
+
+
+<view class='DesV'>
+  <view class='Description'>BODY MATERIAL 阀体材料:</view>
+  <view class='DescriptionDtl'>{{Rfirst}}</view>
+  <view class='Description'>VALVE TYPE 阀门类型:</view>
+  <view class='DescriptionDtl'>{{Rsecond}}</view>
+  <view class='Description'>RATING 压力等级:</view>
+  <view class='DescriptionDtl'>{{Rthird}}</view>
+  <view class='Description'>END CONNECTION 端面形式:</view>
+  <view class='DescriptionDtl'>{{Rfourth}}</view>
+  <view class='Description'>TRIM 阀芯:</view>
+  <view class='DescriptionDtl'>{{Rfifth}}</view>
+  <view class='Description'>LINING & SPECIALTY 衬里或特姝要求:</view>
+  <view class='DescriptionDtl'>{{Rsixth}}</view>
+  <view class='Description'>Further Detail 更详细的要求:</view>
+  <view class='DescriptionDtl'>{{Rseventh}}</view>
+</view>
+
+
+
+

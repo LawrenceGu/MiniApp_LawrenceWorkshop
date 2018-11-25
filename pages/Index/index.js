@@ -13,7 +13,7 @@ Page({
    */
   onLoad: function (options) {
     wx.playBackgroundAudio({
-      dataUrl: 'https://m10.music.126.net/20181022130856/2669ba491d1a4ae33587655bc99c0272/ymusic/da71/5fdd/eedc/f2849199cf0d52356adb74a8040cf221.mp3',
+      dataUrl: 'https://raw.githubusercontent.com/LawrenceGu/music/master/TB_NO.22_sadness.mp3',
       
     })
 

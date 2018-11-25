@@ -12,6 +12,10 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    wx.playBackgroundAudio({
+      dataUrl: 'https://m10.music.126.net/20181022130856/2669ba491d1a4ae33587655bc99c0272/ymusic/da71/5fdd/eedc/f2849199cf0d52356adb74a8040cf221.mp3',
+      
+    })
 
   },
 
@@ -74,6 +78,7 @@ Page({
     wx.navigateTo({
       url: '/pages/resume/index',
     })
-  }
+  },
 
+  
 })

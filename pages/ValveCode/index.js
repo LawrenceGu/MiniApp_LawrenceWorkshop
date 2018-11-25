@@ -20,8 +20,6 @@ Page({
     Rsixth: "6th",
     Rseventh: "7th",
 
-
-
   },
 
   onLoad:function(){
@@ -52,11 +50,6 @@ Page({
     var fifthIndex = val[4]
     var sixthIndex = val[5]
     var seventhIndex = val[6]
-
-
-
-
-
 
 
     // this.data.Rfirst= this.first[firstIndex]

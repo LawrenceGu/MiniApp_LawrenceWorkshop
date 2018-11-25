@@ -6,9 +6,13 @@
 
 
 <view class='PS'>
-  <text>更多功等待开发...</text>
+  <text class='Rmk'>更多功等待开发,源码在GitHub开源,欢迎提出宝贵建议.</text>
   <view>
-    <text class='copyright' bindtap='toResume'>Powered By Lawrence.Gu</text>
+    <text class='git'>open source: https://github.com/LawrenceGu/MiniApp_LawrenceWorkshop</text>
   </view>
+  <view>
+    <text class='copyright' bindtap='toResume'>Powered By Lawrence.Gu</text> 
+  </view>
+  
 </view>
 

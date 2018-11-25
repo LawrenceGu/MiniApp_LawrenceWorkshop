@@ -11,13 +11,30 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-    wx.playBackgroundAudio({
-      dataUrl: 'https://raw.githubusercontent.com/LawrenceGu/music/master/TB_NO.22_sadness.mp3',
+  // onLoad: function (options) {
+  //   wx.playBackgroundAudio({
+  //     dataUrl: 'https://raw.githubusercontent.com/LawrenceGu/music/master/TB_NO.22_sadness.mp3',
       
-    })
+  //   })
 
+  // },
+  onLoad: function () {
+    const backgroundAudioManager = wx.getBackgroundAudioManager()
+    player()
+    function player() {
+      backgroundAudioManager.title = 'TB_NO.22_sadness'
+      backgroundAudioManager.src = 'https://raw.githubusercontent.com/LawrenceGu/music/master/TB_NO.22_sadness.mp3'
+      backgroundAudioManager.onEnded(() => {
+        player()//循环
+      })
+    }
   },
+
+
+
+
+
+
 
   /**
    * 生命周期函数--监听页面初次渲染完成

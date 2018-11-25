@@ -25,7 +25,6 @@
     <picker-view-column>
       <view wx:for="{{six}}" style="line-height: 20px" wx:key="*this">{{item}}</view>
     </picker-view-column>
-
     <picker-view-column>
       <view wx:for="{{seven}}" style="line-height: 20px" wx:key="*this">{{item}}</view>
     </picker-view-column>
